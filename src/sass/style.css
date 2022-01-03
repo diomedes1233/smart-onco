@@ -1,0 +1,259 @@
+/* import components*/
+body {
+  background-color: aqua;
+  margin: auto;
+}
+
+.headercontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #2F455C;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 60px;
+  border: none;
+  padding-bottom: 60px;
+  /* Large (lg) */
+}
+
+.headercontainer .logo {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .headercontainer .logo {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1026px) {
+  .headercontainer .logo {
+    width: 45%;
+  }
+}
+
+.footer {
+  background-color: #10FFCA;
+  height: 30px;
+}
+
+.footer .icon {
+  background-color: #10FFCA;
+  text-align: center;
+}
+
+.footer .pfooter {
+  background-color: #10FFCA;
+  color: #fff;
+  text-align: center;
+}
+
+.containerLoginInput {
+  width: 70%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: 80px;
+  /* Medium (md) */
+  /* Large (lg) */
+}
+
+.containerLoginInput .textlogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 72%;
+  margin-bottom: -20px;
+}
+
+.containerLoginInput input {
+  margin-top: 10px;
+}
+
+.containerLoginInput .button {
+  background-color: #10FFCA;
+  border: none;
+  color: #000;
+  padding: 5px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: 500;
+  opacity: .99;
+}
+
+.containerLoginInput ::-webkit-input-placeholder {
+  opacity: 0.5;
+  /* Firefox */
+}
+
+.containerLoginInput :-ms-input-placeholder {
+  opacity: 0.5;
+  /* Firefox */
+}
+
+.containerLoginInput ::-ms-input-placeholder {
+  opacity: 0.5;
+  /* Firefox */
+}
+
+.containerLoginInput ::placeholder {
+  opacity: 0.5;
+  /* Firefox */
+}
+
+@media (min-width: 768px) {
+  .containerLoginInput {
+    width: 30%;
+    height: 70vh;
+  }
+}
+
+@media (min-width: 1026px) {
+  .containerLoginInput {
+    width: 40%;
+    height: 70vh;
+  }
+  .containerLoginInput .textlogin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 35%;
+    margin-bottom: -20px;
+  }
+}
+
+.containerLoginInput p {
+  font-weight: 700;
+}
+
+.loginfondo {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2F455C;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menubuttonfondo {
+  width: 100%;
+  height: 100px;
+  background-color: #2F455C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+}
+
+.containerTextInitial {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+.btnLogin {
+  width: 10%;
+  height: 50px;
+  background-color: #10FFCA;
+  border: none;
+  color: #2F455C;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-right: 70px;
+}
+
+.navcontainer {
+  width: 30%;
+  gap: 10px;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navcontainer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navcontainer a:hover {
+  color: #FFA912;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+/*# sourceMappingURL=style.css.map */

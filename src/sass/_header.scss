@@ -1,0 +1,36 @@
+@import '_variables';
+
+.headercontainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: $azul-color;
+  flex-direction: row;
+  align-items: center;
+  padding: 60px 60px;
+  border: none;
+  padding-bottom: 60px;
+ 
+
+ 
+
+  .logo {
+    width: 100%;
+   
+    
+  }
+
+  @media (min-width: 768px) {
+    .logo {
+      width: 50%;
+    }
+  }
+
+  /* Large (lg) */
+  @media (min-width: 1026px) {
+    .logo {
+      width: 45%;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+
+
+@import '_variables';
+
+.navcontainer{
+  width: 30%;
+  gap: 10px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  text-decoration: none;
+  list-style-type: none;
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: $verde-menta;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 5px 5px; 
+  }
+}
+
